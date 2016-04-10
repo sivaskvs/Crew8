@@ -1,0 +1,115 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myapplication.siva.crewette.Ideas">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Enter Name:"
+            android:id="@+id/textView4"
+            android:layout_marginTop="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/nameText"
+            android:layout_alignStart="@+id/nameText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/nameText"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="What Update you expect to be made in this App?"
+            android:id="@+id/textView5"
+            android:textSize="20dp"
+            android:layout_below="@+id/nameText"
+            android:layout_alignLeft="@+id/nameText"
+            android:layout_alignStart="@+id/nameText"
+            android:layout_alignRight="@+id/nameText"
+            android:layout_alignEnd="@+id/nameText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/appText"
+            android:layout_below="@+id/textView5"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Any new ideas for Crewette Video.."
+            android:id="@+id/textView6"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/appText"
+            android:layout_alignStart="@+id/appText"
+            android:layout_alignRight="@+id/appText"
+            android:layout_alignEnd="@+id/appText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/videoText"
+            android:layout_below="@+id/textView6"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Any Startup ideas? Feel free to share.."
+            android:id="@+id/textView7"
+            android:textSize="20dp"
+            android:layout_below="@+id/videoText"
+            android:layout_alignLeft="@+id/videoText"
+            android:layout_alignStart="@+id/videoText"
+            android:layout_alignRight="@+id/videoText"
+            android:layout_alignEnd="@+id/videoText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/startText"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/sendButton"
+            android:layout_below="@+id/startText"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

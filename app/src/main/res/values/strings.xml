@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CUB BALANCE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Go to Home Page</string>
+    <string name="title_activity_sms">SmsActivity</string>
+    <string name="title_activity_tand_c">TandC</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_feedback">Feedback</string>
+
+</resources>
